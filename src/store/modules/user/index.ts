@@ -14,7 +14,7 @@ type Store = {
 // }));
 
 // 使用 persist 持久化写法
-const useStore = create<Store>()(
+const useUserStore = create<Store>()(
 	persist(
 		(set, get) => ({
 			count: 1,
@@ -35,4 +35,4 @@ const useStore = create<Store>()(
 	)
 );
 
-export default useStore;
+export default useUserStore;

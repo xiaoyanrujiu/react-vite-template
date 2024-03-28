@@ -1,4 +1,4 @@
-import userStore from "@/store/modules/user";
-import menuStore from "@/store/modules/menu";
+import useUserStore from "@/store/modules/user";
+import useMenuStore from "@/store/modules/menu";
 
-export { userStore, menuStore };
+export { useUserStore, useMenuStore };

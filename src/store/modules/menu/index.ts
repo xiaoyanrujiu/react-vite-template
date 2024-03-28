@@ -5,7 +5,7 @@ type Store = {
 	name: string;
 };
 
-const menuStore = create<Store>()(
+const useMenuStore = create<Store>()(
 	persist(
 		(set, get) => ({
 			name: "菜单"
@@ -16,4 +16,4 @@ const menuStore = create<Store>()(
 	)
 );
 
-export default menuStore;
+export default useMenuStore;
